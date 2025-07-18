@@ -248,10 +248,14 @@
 
       .about img {
         width: 180px;
-
-        .tech-section {
+.tech-section {
   background-color: #3c5ba9;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
+}
+
+.tech-section .section-header,
+.tech-section .section-description {
+  color: white;
 }
 
       }
@@ -313,12 +317,14 @@
 
 
   <!-- TECH CURRICULUM -->
+ <!-- TECH CURRICULUM -->
+<section class="tech-section text-white">
   <div class="section-header">💻 TECHNICAL CURRICULUM</div>
   <div class="section-description">
     Explore the structured technical phases designed to progressively build your coding, web development, and backend skills.
   </div>
 
-  <section class="card-grid tech-section">
+  <div class="card-grid">
     <div class="card"><h3>HTML & CSS</h3><p>Learn the basics of web structure and styling.</p><div class="duration">Duration: 8 Weeks</div><a href="#">→ View Class Flow</a></div>
     <div class="card"><h3>Advanced JS & Node</h3><p>Modern JavaScript and backend foundations.</p><div class="duration">Duration: 4 Weeks</div><a href="#">→ View Class Flow</a></div>
     <div class="card"><h3>JS Fundamentals</h3><p>Core programming concepts using JavaScript.</p><div class="duration">Duration: 6 Weeks</div><a href="#">→ View Class Flow</a></div>
@@ -327,7 +333,9 @@
     <div class="card"><h3>Express & MongoDB</h3><p>Back-end dev using Express and MongoDB.</p><div class="duration">Duration: 4 Weeks</div><a href="#">→ View Class Flow</a></div>
     <div class="card"><h3>DOM</h3><p>Master DOM manipulation for dynamic experiences.</p><div class="duration">Duration: 4 Weeks</div><a href="#">→ View Class Flow</a></div>
     <div class="card"><h3>AI Tools</h3><p>Explore AI applications in content & automation.</p><div class="duration">Duration: 4 Weeks</div><a href="#">→ View Class Flow</a></div>
-  </section>
+  </div>
+</section>
+
 
   <!-- NON-TECH SECTION -->
   <div class="w-full max-w-5xl flex flex-col items-center px-4 mx-auto my-20">
